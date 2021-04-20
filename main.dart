@@ -18,22 +18,11 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MyHomepage(),
+      home: Test(),
     );
   }
 }
 
-class MyHomepage extends StatefulWidget {
-  @override
-  _MyHomepageState createState() => _MyHomepageState();
-}
-
-class _MyHomepageState extends State<MyHomepage> {
-  @override
-  Widget build(BuildContext context) {
-    return Homepage();
-  }
-}
 
 class Test extends StatefulWidget {
   @override
